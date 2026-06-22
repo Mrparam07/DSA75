@@ -9,6 +9,7 @@ public class BruteForce {
                     result[0] = i;
                     result[1] = j;
                     break;
+                    //return new int[]{i, j};
                 }
             }
         }
