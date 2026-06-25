@@ -15,7 +15,6 @@ public class BetterTwoSum {
         for (int i = 0; i < arr.length; i++) {
             numbers.put(arr[i], i);
         }
-
         for (int i = 0; i < arr.length; i++) {
             int complement = target - arr[i];
             if(numbers.containsKey(complement) && numbers.get(complement) != i) {
